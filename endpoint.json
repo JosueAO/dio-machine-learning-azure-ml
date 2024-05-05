@@ -1,0 +1,9 @@
+{
+  "endpoint_name": "bike-rental-predictor",
+  "deployment_config": {
+    "compute_type": "ACI",
+    "container_size": "small"
+  },
+  "model": "model.pkl",
+  "scoring_script": "score.py"
+}
